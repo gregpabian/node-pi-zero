@@ -6,8 +6,7 @@
 
 VERSION=v7.9.0;
 
-# Creates directory for downloads, and downloads node
-cd ~/ && mkdir temp && cd temp;
+# Download Node
 wget https://nodejs.org/dist/$VERSION/node-$VERSION-linux-armv6l.tar.gz;
 tar -xzf node-$VERSION-linux-armv6l.tar.gz;
 # Remove the tar after extracing it.
@@ -37,4 +36,4 @@ sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm;
 
 NODE_VERSION=$(node -v)
 NPM_VERSION=$(npm -v)
-echo "Succesfully installed Node.js $NODE_VERSION and NPM $NPM_VERSION"
+echo "Successfully installed Node.js $NODE_VERSION and NPM $NPM_VERSION"

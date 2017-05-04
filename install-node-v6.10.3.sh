@@ -4,7 +4,7 @@
 # Based on script by Richard Stanley @ https://github.com/audstanley/Node-MongoDb-Pi/
 # This is for a RaspberryPi Zero but should work across all models.
 
-VERSION=v4.0.0;
+VERSION=v6.10.3;
 
 # Download Node
 wget https://nodejs.org/dist/$VERSION/node-$VERSION-linux-armv6l.tar.gz;

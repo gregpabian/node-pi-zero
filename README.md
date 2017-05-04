@@ -54,6 +54,12 @@ $ wget -O - https://raw.githubusercontent.com/gregpabian/node-pi-zero/master/ins
 $ wget -O - https://raw.githubusercontent.com/gregpabian/node-pi-zero/master/install-node-v6.9.1.sh | bash
 ```
 
+## v6.10.3
+
+```sh
+$ wget -O - https://raw.githubusercontent.com/gregpabian/node-pi-zero/master/install-node-v6.10.3.sh | bash
+```
+
 ## v7.2.1
 
 ```sh
