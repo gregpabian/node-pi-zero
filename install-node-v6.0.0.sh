@@ -35,4 +35,6 @@ sudo ln -s /opt/nodejs/bin/npm /usr/sbin/npm;
 sudo ln -s /opt/nodejs/bin/npm /sbin/npm;
 sudo ln -s /opt/nodejs/bin/npm /usr/local/bin/npm;
 
-
+NODE_VERSION=$(node -v)
+NPM_VERSION=$(npm -v)
+echo "Succesfully installed Node.js $NODE_VERSION and NPM $NPM_VERSION"
